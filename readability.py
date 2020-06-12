@@ -5,6 +5,7 @@ from textstat.textstat import textstatistics, easy_word_set, legacy_round
 from textstat.textstat import textstat
 from re import sub, match
 
+easy_word_set
 
 def tokenizer(text):
     tokenizer = RegexpTokenizer(r'\w+')
