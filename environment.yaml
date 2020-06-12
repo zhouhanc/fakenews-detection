@@ -60,5 +60,4 @@ dependencies:
   - zlib=1.2.11
   - pip:
     - fake-useragent==0.1.11
-prefix: /home/kellin/anaconda3/envs/fakenews-domains
 
