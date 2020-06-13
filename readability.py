@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 from nltk import FreqDist
 from nltk.tokenize import sent_tokenize, RegexpTokenizer
-from textstat.textstat import textstatistics, easy_word_set, legacy_round
+from textstat.textstat import textstatistics, legacy_round
 from textstat.textstat import textstat
 from re import sub, match
 
+easy_word_set = textstat._textstatistics__get_lang_easy_words()
 
 def tokenizer(text):
     tokenizer = RegexpTokenizer(r'\w+')
