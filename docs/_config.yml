@@ -1,0 +1,6 @@
+title: Fakenews Detector
+description: A supervised machine learning model to detect fake news domains
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
